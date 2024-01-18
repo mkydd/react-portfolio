@@ -11,6 +11,7 @@ import Menu from './components/Menu'
 function App() {
   return (
     <div className="App" id="outer-container">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"/>
       <Menu />
       <Routes>
         <Route path="/" element={<Home />}/>

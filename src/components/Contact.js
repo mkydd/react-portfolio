@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactInfo from './ContactInfo'
 
 function Contact() {
   return (
@@ -18,6 +19,8 @@ function Contact() {
         <input className="contact-form-input" type="text" name="message" id="message" />
         <button type="submit">Send Mail</button>
       </form>
+
+      <ContactInfo />
     </div>
   )
 }
