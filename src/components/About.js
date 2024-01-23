@@ -1,4 +1,5 @@
 import React from 'react'
+import CVButton from './CVButton'
 
 function About() {
   return (
@@ -18,6 +19,7 @@ function About() {
         <p><b>Working Status</b>: Seeking Employment</p>
         <p>(Willing to Relocate)</p>
       </div>
+      <CVButton />
     </div>
   )
 }
