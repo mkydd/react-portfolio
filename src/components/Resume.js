@@ -1,5 +1,5 @@
 import React from 'react'
-import { programming, web_database, frameworks, tech } from './skills'
+import { programming, web_database, frameworks, tech } from '../data/skillsData'
 
 function Resume() {
   return (
