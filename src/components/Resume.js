@@ -10,19 +10,19 @@ function Resume() {
           <h2>Skills</h2>
           <div>
             <h3>Programming</h3> 
-            <ul>{programming.map(elem => <li>{elem}</li>)}</ul>
+            <ul>{programming.map(elem => <li key={elem}>{elem}</li>)}</ul>
           </div>
           <div>
             <h3>Web Database</h3> 
-            <ul>{web_database.map(elem => <li>{elem}</li>)}</ul>
+            <ul>{web_database.map(elem => <li key={elem}>{elem}</li>)}</ul>
           </div>
           <div>
             <h3>Frameworks</h3> 
-            <ul>{frameworks.map(elem => <li>{elem}</li>)}</ul>
+            <ul>{frameworks.map(elem => <li key={elem}>{elem}</li>)}</ul>
           </div>
           <div>
             <h3>Tech</h3> 
-            <ul>{tech.map(elem => <li>{elem}</li>)}</ul>
+            <ul>{tech.map(elem => <li key={elem}>{elem}</li>)}</ul>
           </div>
           
         </div>
