@@ -1,4 +1,5 @@
 import React from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
           quidem vero, rem commodi id amet ducimus optio?</p>
       </div>
       <div>
-        <button>GitHub</button> {/* Use Material UI for GitHub logo */}
+        <a href="http://github.com/mkydd" target="_blank" rel="noreferrer"><GitHubIcon /></a>
       </div>
     </div>
   )
