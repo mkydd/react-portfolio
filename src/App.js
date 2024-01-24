@@ -10,7 +10,7 @@ import Menu from './components/Menu'
 
 function App() {
   return (
-    <div className="App" id="outer-container">
+    <div className="app" id="outer-container">
       <Menu />
       <Routes>
         <Route path="/" element={<Home />}/>

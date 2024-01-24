@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:regular,bold,italic&subset=latin,latin-ext');
+
+/* HTML Styling */
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Nunito,sans-serif;
+    /* -webkit-font-smooting: antialiased; */
+}
+
+/* App Styling */
+.app {
+    display: flex;
+    min-height: 100dvh;
+}
+
+/* Menu Styling */
+.menu {
+    position: fixed;
+    margin: 0.5rem;
+}
+
+/* Home Page Styling */
+.home {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+.home .greeting {
+    /* font-weight: bold; */
+    font-size: 1.75rem;
+}
+
+.home .introduction {
+    margin-bottom: 0;
+}
+
+.home .name {
+    margin-top: 0;
+    color: #037fff;
+}
+
+.home .about-me {
+    margin-block: 0.75rem;
+}
+
+.github-icon {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* Contact Page Styling */
 .contact-form {
     display: block;
 }
