@@ -97,10 +97,54 @@ body {
 }
 
 /* Resume Page Styling */
+.skills h1 {
+    margin-bottom: 0.5rem;
+}
 .resume-page {
     margin-top: 10rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
+}
+
+.resume-page ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    max-width: 50%;
+}
+
+.resume-page li {
+    color: white;
+    background-color: #037fff;
+    border-radius: 5px;
+    padding: 0.25rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.education {
+    margin-bottom: 1rem;
+}
+
+.education h1 {
+    margin-bottom: 0.5rem;
+}
+
+.education .year {
+    color: #313131;
+    font-size: 1rem
+}
+
+.education .degree {
+    color: #037fff;
+    font-size: 1.25rem;
+}
+
+.education .school {
+    font-size: 1rem;
 }
 
 

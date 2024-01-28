@@ -1,9 +1,9 @@
 const programming = [
   'Python',
-  'JavaScript',
   'C',
   'Java',
-  'VBA' 
+  'VBA', 
+  'JavaScript'
 ]
 
 const web_database = [
