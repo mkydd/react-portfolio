@@ -1,9 +1,11 @@
+import reactCalculatorImg from '../imgs/projects/react-calculator.png'
+
 const projects = [
   {
     name: 'React Calculator',
-    img: '',
+    img: reactCalculatorImg,
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://github.com/mkydd/react-calculator',
     tech: [
       'ReactJS'
     ]
@@ -12,7 +14,7 @@ const projects = [
     name: 'Spotify Playlist Generator',
     img: '',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://',
     tech: [
       'ReactJS'
     ]
@@ -21,7 +23,7 @@ const projects = [
     name: 'Word Guessing Game',
     img: '',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://',
     tech: [
       'HTML',
       'CSS',
@@ -32,7 +34,7 @@ const projects = [
     name: 'Final Grade Generator',
     img: '',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://',
     tech: [
       'Python',
       'Tkinter (Python Package)'

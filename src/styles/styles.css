@@ -147,6 +147,40 @@ body {
     font-size: 1rem;
 }
 
+/* Projects Page Styling */
+.projects-page {
+    margin: 10rem 8px 8px 8px;
+}
+
+.project {
+    padding: 0;
+}
+
+.project li {
+    list-style-type: none;
+}
+
+.project h2{
+    color: #037fff;
+}
+
+.project .project-info {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.project .img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.project .project-link-button {
+    color: #037fff;
+}
+
+.project img {
+    max-width: 50%;
+}
 
 
 /* Contact Page Styling */
