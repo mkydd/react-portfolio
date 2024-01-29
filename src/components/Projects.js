@@ -15,11 +15,7 @@ function Projects() {
                 <div className="img-wrapper">
                   {project.img ? <img src={project.img} alt={project.name} className={project.imgClassName}/> : null}
                 </div>
-                <h2>{project.name}</h2>
-                {/* <div className="tech">
-                  <p>Tech:</p>
-                  {project.tech.map(techItem => <p>{techItem}</p>)}
-                </div> */}
+                <h2>{project.name}</h2> 
                 <ul className='tech'>
                   <p>Tech:&nbsp;</p>
                   {project.tech.map((techItem, index) => {

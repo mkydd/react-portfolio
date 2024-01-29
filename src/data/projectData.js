@@ -19,7 +19,7 @@ const projects = [
     img: spotifyPlaylistGeneratorImg,
     imgClassName: 'horizontal-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    githubURL: 'https://',
+    githubURL: 'https://github.com/mkydd/spotify-playlist-generator',
     tech: [
       'ReactJS'
     ]
@@ -29,7 +29,7 @@ const projects = [
     img: wordGuessingGameImg,
     imgClassName: 'vertical-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    githubURL: 'https://',
+    githubURL: 'https://github.com/mkydd/wordle-clone',
     tech: [
       'HTML',
       'CSS',
@@ -41,7 +41,7 @@ const projects = [
     img: finalGradeGeneratorImg,
     imgClassName: 'horizontal-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    githubURL: 'https://',
+    githubURL: 'https://github.com/mkydd/CP317-Project',
     tech: [
       'Python',
       'Tkinter (Python Package)'
