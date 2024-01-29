@@ -16,9 +16,19 @@ function Projects() {
                   {project.img ? <img src={project.img} alt={project.name} /> : null}
                 </div>
                 <h2>{project.name}</h2>
-                <h3>Tech</h3>
-                <ul>
-                  {project.tech.map(techItem => <li key={`${project.name}-${techItem}`}>{techItem}</li>)}
+                {/* <div className="tech">
+                  <p>Tech:</p>
+                  {project.tech.map(techItem => <p>{techItem}</p>)}
+                </div> */}
+                <ul className='tech'>
+                  <p>Tech:&nbsp;</p>
+                  {project.tech.map((techItem, index) => {
+                    if (index === project.tech.length - 1)
+                      return <li key={`${project.name}-${techItem}`}>{techItem}</li>
+                    else
+                      return <li key={`${project.name}-${techItem}`}>{techItem},&nbsp;</li>
+                  }
+                    )}
                 </ul>
               </li>
               <a 

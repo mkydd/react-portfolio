@@ -174,8 +174,18 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .project .project-link-button {
     color: #037fff;
+    background-color: white;
+    border: 2px solid #037fff;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+.project .tech {
+    display: flex;
+    padding: 0;
 }
 
 .project img {
