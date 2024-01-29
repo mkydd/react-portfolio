@@ -165,9 +165,10 @@ body {
 }
 
 .project .project-info {
-    border: 1px solid black;
+    border: 1px solid #037fff;
     margin: 1rem;
     padding: 0.5rem;
+    border-radius: 5px;
 }
 
 .project .img-wrapper {
@@ -189,7 +190,15 @@ body {
 }
 
 .project img {
+    border-radius: 5px;
+}
+
+.project .vertical-img {
     max-width: 50%;
+}
+
+.project .horizontal-img {
+    max-width: 100%;
 }
 
 

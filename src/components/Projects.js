@@ -13,7 +13,7 @@ function Projects() {
             <div className="project-info">
               <li key={project.name}>
                 <div className="img-wrapper">
-                  {project.img ? <img src={project.img} alt={project.name} /> : null}
+                  {project.img ? <img src={project.img} alt={project.name} className={project.imgClassName}/> : null}
                 </div>
                 <h2>{project.name}</h2>
                 {/* <div className="tech">
