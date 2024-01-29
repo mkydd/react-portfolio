@@ -147,6 +147,59 @@ body {
     font-size: 1rem;
 }
 
+/* Projects Page Styling */
+.projects-page {
+    margin: 10rem 8px 8px 8px;
+}
+
+.project {
+    padding: 0;
+}
+
+.project li {
+    list-style-type: none;
+}
+
+.project h2{
+    color: #037fff;
+}
+
+.project .project-info {
+    border: 1px solid #037fff;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.project .img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.project .project-link-button {
+    color: #037fff;
+    background-color: white;
+    border: 2px solid #037fff;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+.project .tech {
+    display: flex;
+    padding: 0;
+}
+
+.project img {
+    border-radius: 5px;
+}
+
+.project .vertical-img {
+    max-width: 50%;
+}
+
+.project .horizontal-img {
+    max-width: 100%;
+}
 
 
 /* Contact Page Styling */

@@ -1,27 +1,35 @@
+import reactCalculatorImg from '../imgs/projects/react-calculator.png'
+import spotifyPlaylistGeneratorImg from '../imgs/projects/spotify-playlist-generator.png'
+import wordGuessingGameImg from '../imgs/projects/word-guessing-game.png'
+import finalGradeGeneratorImg from '../imgs/projects/final-grade-generator.png'
+
 const projects = [
   {
     name: 'React Calculator',
-    img: '',
+    img: reactCalculatorImg,
+    imgClassName: 'vertical-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://github.com/mkydd/react-calculator',
     tech: [
       'ReactJS'
     ]
   }, 
   {
     name: 'Spotify Playlist Generator',
-    img: '',
+    img: spotifyPlaylistGeneratorImg,
+    imgClassName: 'horizontal-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://github.com/mkydd/spotify-playlist-generator',
     tech: [
       'ReactJS'
     ]
   }, 
   {
     name: 'Word Guessing Game',
-    img: '',
+    img: wordGuessingGameImg,
+    imgClassName: 'vertical-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://github.com/mkydd/wordle-clone',
     tech: [
       'HTML',
       'CSS',
@@ -30,9 +38,10 @@ const projects = [
   }, 
   {
     name: 'Final Grade Generator',
-    img: '',
+    img: finalGradeGeneratorImg,
+    imgClassName: 'horizontal-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    url: 'https://',
+    githubURL: 'https://github.com/mkydd/CP317-Project',
     tech: [
       'Python',
       'Tkinter (Python Package)'
