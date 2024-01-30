@@ -227,3 +227,14 @@ body {
     border: 1px solid #cbced8;
     box-sizing: border-box;
 }
+
+.form button {
+    background-color: #037fff;
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
