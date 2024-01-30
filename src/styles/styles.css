@@ -210,10 +210,20 @@ body {
     margin: 10rem 8px 8px 8px;
 }
 
-/* .contact-form-input {
-    
-} */
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
 
-fieldset {
-    padding: 0;
+.input-field {
+    flex-grow: 1;
+    flex: 100%;
+}
+
+.input-field input {
+    min-width: 100%;
+    padding-inline: 0;
+    border: 1px solid #cbced8;
+    box-sizing: border-box;
 }

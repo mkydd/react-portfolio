@@ -22,23 +22,29 @@ function Contact() {
   }
 
   return (
-    <div>
+    <div className='contact-page'>
       <h1>CONTACT ME</h1>
-      <form className="form" ref={form} onSubmit={sendEmail}>
-        <label htmlFor="name">Enter your name*</label>
-        <input className="contact-form-input" type="text" name="name" id="name" required />
-
-        <label htmlFor="email">Enter your email*</label>
-        <input className="contact-form-input" type="email" name="email" id="email" required />
-
-        <label htmlFor="subject">Enter your subject</label>
-        <input className="contact-form-input" type="text" name="subject" id="subject"  />
-        
-        <label htmlFor="message">Enter your message*</label>
-        <input className="contact-form-input" type="text" name="message" id="message" required />
-        <button type="submit">Send Mail</button>
-      </form>
-
+      <div className="contact-form">
+        <form className="form" ref={form} onSubmit={sendEmail}>
+          <div className="input-field">
+            <label htmlFor="name">Enter your name*</label>
+            <input className="contact-form-input" type="text" name="name" id="name" required />
+          </div>
+          <div className="input-field">
+            <label htmlFor="email">Enter your email*</label>
+            <input className="contact-form-input" type="email" name="email" id="email" required/>
+          </div>
+          <div className="input-field">
+            <label htmlFor="subject">Enter your subject</label>
+            <input className="contact-form-input" type="text" name="subject" id="subject"  />
+          </div>
+          <div className="input-field">
+            <label htmlFor="message">Enter your message*</label>
+            <input className="contact-form-input" type="text" name="message" id="message" required />
+          </div>
+          <button type="submit">Send Mail</button>
+        </form>
+      </div>
       <ContactInfo />
     </div>
   )
