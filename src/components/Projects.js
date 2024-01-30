@@ -3,7 +3,6 @@ import { projects } from '../data/projectData'
 
 function Projects() {
   
-
   return (
     <div className='projects-page'>
       <h1>Projects</h1>
