@@ -143,8 +143,12 @@ body {
     font-size: 1.25rem;
 }
 
+.education .program {
+    font-size: 1.1rem;
+}
+
 .education .school {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /* Projects Page Styling */
@@ -202,11 +206,14 @@ body {
 }
 
 /* Contact Page Styling */
-.contact-form {
-    display: block;
+.contact-page {
+    margin: 10rem 8px 8px 8px;
 }
 
-.contact-form-input {
-    width: 85%;
-    margin: 10px;
+/* .contact-form-input {
+    
+} */
+
+fieldset {
+    padding: 0;
 }

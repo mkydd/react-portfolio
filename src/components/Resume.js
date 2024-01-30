@@ -34,6 +34,7 @@ function Resume() {
         <h1>Education</h1>
         <h2 className='year'>2019 - 2023</h2>
         <h2 className='degree'>Bachelor of Science</h2>
+        <h3 className="program">Computer Science</h3>
         <h3 className='school'>Sir Wilfrid Laurier University</h3>
       </div>
       {/* <div className='work-experience'>
