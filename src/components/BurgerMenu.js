@@ -1,18 +1,26 @@
 import React, { useState } from 'react'
 import Menu from './Menu'
+import BurgerMenuButton from './BurgerMenuButton';
 
 function BurgerMenu() {
   const [pressed, setPressed] = useState(false)
 
+  function handleBurgerButtonClick() {
+    setPressed(!pressed)
+  }
+
+  function handleMenuCloseClick() {
+    setPressed(!pressed)
+  }
+
   return (
     <div className='burger-menu'>
       <div className="nav">
-        <button onClick={() => setPressed(!pressed)}>
-          <hr />
-          <hr />
-          <hr />
-          </button>
-        {pressed ? <Menu /> : null}
+        
+        {pressed ? 
+          <Menu handleClick={handleMenuCloseClick}/> 
+        : 
+          <BurgerMenuButton handleClick={handleBurgerButtonClick}/>}
       </div>
       
     </div>

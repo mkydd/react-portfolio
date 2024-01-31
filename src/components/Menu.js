@@ -1,10 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import headshot from '../imgs/headshot.png'
+import MenuButton from './MenuButton'
 
-function Menu() {
+function Menu( {handleClick} ) {
   return (
     <div className='menu'>
+      <div className="button-wrapper">
+        <MenuButton handleClick={handleClick}/>
+      </div>
       <div className="headshot">
         <img src={headshot} alt="headshot" srcset="" />
       </div>

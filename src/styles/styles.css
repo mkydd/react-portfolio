@@ -91,7 +91,7 @@ body {
     margin: 0;
 }
 
-.burger-menu button {
+.burger-menu-button {
     position: fixed;
     z-index: 1;
     width: 3rem;
@@ -101,12 +101,22 @@ body {
     border-left: none;
 }
 
-.burger-menu button hr {
+.burger-menu-button hr {
     margin-block: 0.4rem;
     margin-inline: 0.25rem;
     height: 2px;
     background-color: black;
     border: none;
+}
+
+.menu-button {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    /* margin-left: 100%; */
+    position: fixed;
+    left: 70%;
+    border: 1px solid #cbced8;;
 }
 
 /* Home Page Styling */
