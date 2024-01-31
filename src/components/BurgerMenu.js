@@ -6,10 +6,15 @@ function BurgerMenu() {
 
   return (
     <div className='burger-menu'>
-      <button onClick={() => setPressed(!pressed)}>Burger Menu</button>
-      {pressed ? <Menu /> : null}
-      <div className="burger-menu-button">
+      <div className="nav">
+        <button onClick={() => setPressed(!pressed)}>
+          <hr />
+          <hr />
+          <hr />
+          </button>
+        {pressed ? <Menu /> : null}
       </div>
+      
     </div>
   )
 }
