@@ -22,7 +22,7 @@ function Menu( {handleClick} ) {
         </div>
       </div>
       <div className="footer">
-        <p>Made & Designed by</p>
+        <p>Designed & Developed by</p>
         <p className='name'>Michael Kydd</p>
       </div>
     </div>
