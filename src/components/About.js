@@ -1,6 +1,6 @@
 import React from 'react'
 import CVButton from './CVButton'
-import headshot from '../headshot.png'
+import headshot from '../imgs/headshot.png'
 
 function About() {
   return (
