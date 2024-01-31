@@ -3,27 +3,7 @@ import spotifyPlaylistGeneratorImg from '../imgs/projects/spotify-playlist-gener
 import wordGuessingGameImg from '../imgs/projects/word-guessing-game.png'
 import finalGradeGeneratorImg from '../imgs/projects/final-grade-generator.png'
 
-const projects = [
-  {
-    name: 'React Calculator',
-    img: reactCalculatorImg,
-    imgClassName: 'vertical-img',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    githubURL: 'https://github.com/mkydd/react-calculator',
-    tech: [
-      'ReactJS'
-    ]
-  }, 
-  {
-    name: 'Spotify Playlist Generator',
-    img: spotifyPlaylistGeneratorImg,
-    imgClassName: 'horizontal-img',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
-    githubURL: 'https://github.com/mkydd/spotify-playlist-generator',
-    tech: [
-      'ReactJS'
-    ]
-  }, 
+const projects = [ 
   {
     name: 'Word Guessing Game',
     img: wordGuessingGameImg,
@@ -35,7 +15,17 @@ const projects = [
       'CSS',
       'JavaScript'
     ]
-  }, 
+  },
+  {
+    name: 'Spotify Playlist Generator',
+    img: spotifyPlaylistGeneratorImg,
+    imgClassName: 'horizontal-img',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
+    githubURL: 'https://github.com/mkydd/spotify-playlist-generator',
+    tech: [
+      'ReactJS'
+    ]
+  },
   {
     name: 'Final Grade Generator',
     img: finalGradeGeneratorImg,
@@ -46,7 +36,17 @@ const projects = [
       'Python',
       'Tkinter (Python Package)'
     ]
-  }
+  },
+  {
+    name: 'React Calculator',
+    img: reactCalculatorImg,
+    imgClassName: 'vertical-img',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
+    githubURL: 'https://github.com/mkydd/react-calculator',
+    tech: [
+      'ReactJS'
+    ]
+  },
 
 ]
 
