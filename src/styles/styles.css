@@ -210,6 +210,10 @@ body {
     margin: 10rem 8px 8px 8px;
 }
 
+.contact-form {
+    margin-top: 2rem;
+}
+
 .form {
     display: flex;
     flex-wrap: wrap;
@@ -237,11 +241,14 @@ body {
     letter-spacing: 2px;
     font-size: 0.9rem;
     text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .contact-info-card {
     padding: 1rem;
     margin-block: 1rem;
+    background-color: #e4e4e4;
 }
 .contact-type {
     margin-block: 0.5rem;

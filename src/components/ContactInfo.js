@@ -6,7 +6,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 function ContactInfo() {
   return (
     <div className='contact-info'>
-      <div className="contact-info-card" style={{border: '1px solid black'}}>
+      <div className="contact-info-card">
         <LocalPhoneOutlinedIcon 
           style={{
             border: '1px solid #cbced8',
@@ -15,7 +15,7 @@ function ContactInfo() {
         <p className="contact-type">Phone</p>
         <p className="contact-info">+1 289-244-0493</p>
       </div>
-      <div className="contact-info-card" style={{border: '1px solid black'}}>
+      <div className="contact-info-card">
         <EmailOutlinedIcon 
           style={{
             border: '1px solid #cbced8',
@@ -24,7 +24,7 @@ function ContactInfo() {
         <p className="contact-type">Email</p>
         <p className="contact-info">michael.kydd@outlook.com</p>
       </div>
-      <div className="contact-info-card" style={{border: '1px solid black'}}>
+      <div className="contact-info-card">
         <LocationOnOutlinedIcon 
           style={{
             border: '1px solid #cbced8',
