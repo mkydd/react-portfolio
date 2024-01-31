@@ -124,7 +124,7 @@ body {
 
 /* About Page Styling */
 .about-me {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
 }
@@ -169,7 +169,7 @@ body {
     margin-bottom: 0.5rem;
 }
 .resume-page {
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
 }
@@ -221,7 +221,7 @@ body {
 
 /* Projects Page Styling */
 .projects-page {
-    margin: 10rem 8px 8px 8px;
+    margin: 5rem 1rem 1rem 1rem;
 }
 
 .project {
@@ -238,7 +238,7 @@ body {
 
 .project .project-info {
     border: 1px solid #037fff;
-    margin: 1rem;
+    margin-block: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
 }
@@ -275,7 +275,7 @@ body {
 
 /* Contact Page Styling */
 .contact-page {
-    margin: 10rem 8px 8px 8px;
+    margin: 5rem 1rem 1rem 1rem;
 }
 
 .contact-form {
