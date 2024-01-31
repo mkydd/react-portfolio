@@ -40,7 +40,7 @@ function Contact() {
           </div>
           <div className="input-field">
             <label htmlFor="message">Enter your message*</label>
-            <input className="contact-form-input" type="text" name="message" id="message" required />
+            <textarea className="contact-form-input" type="text" name="message" id="message" required></textarea>
           </div>
           <button type="submit">Send Mail</button>
         </form>

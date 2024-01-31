@@ -225,11 +225,15 @@ body {
     flex: 100%;
 }
 
-.input-field input {
+.input-field .contact-form-input {
     min-width: 100%;
     padding-inline: 0;
     border: 1px solid #cbced8;
     box-sizing: border-box;
+}
+
+.input-field #message {
+    height: 150px;
 }
 
 .form button {
