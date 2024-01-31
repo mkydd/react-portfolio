@@ -1,9 +1,14 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import headshot from '../imgs/headshot.png'
 
 function Menu() {
   return (
     <div className='menu'>
+      <div className="headshot">
+        <img src={headshot} alt="headshot" srcset="" />
+      </div>
+
       <NavLink to='/'>Home</NavLink>
       <br />
       <NavLink to='/about'>About</NavLink>
