@@ -29,13 +29,14 @@ body {
     border-right: 1px solid #cbced8;
     width: 70%;
     background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu .headshot img {
     width: 60%;
     border-radius: 50%;
     border: 8px solid #cbced8;
-    box-sizing: border-box;
     margin-block: 1rem;
 }
 
@@ -43,8 +44,45 @@ body {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #cbced8;
+    box-sizing: border-box;
     border-radius: 0;
+    margin: 0;
 }
+
+.navlink-box-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navlink-box {
+    /* border: 1px solid red; */
+    flex-grow: 1;
+}
+
+.navlink {
+    color: #313131;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-block: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.95rem;
+}
+
+.menu .footer {
+    font-weight: 400;
+    text-align: center;
+    border-top: 1px solid #cbced8;
+    padding-block: 1rem;
+}
+
+.menu .footer .name {
+    color: #037fff;
+}
+
 
 /* BurgerMenu Styling */
 .burger-menu {
