@@ -110,10 +110,9 @@ body {
 }
 
 .menu-button {
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-top: 0.5rem;
-    /* margin-left: 100%; */
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-top: 1.1rem;
     position: fixed;
     left: 70%;
     border: 1px solid #cbced8;;
