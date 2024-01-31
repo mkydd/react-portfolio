@@ -5,13 +5,14 @@ import About from './components/About'
 import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import Menu from './components/Menu'
+// import Menu from './components/Menu'
+import BurgerMenu from './components/BurgerMenu';
 
 
 function App() {
   return (
-    <div className="app" id="outer-container">
-      <Menu />
+    <div className="app">
+      <BurgerMenu />
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>

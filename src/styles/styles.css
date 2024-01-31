@@ -28,6 +28,12 @@ body {
     margin: 0.5rem;
 }
 
+/* BurgerMenu Styling */
+.burger-menu {
+    position: fixed;
+    margin: 0.5rem;
+}
+
 /* Home Page Styling */
 .home {
     display: flex;
