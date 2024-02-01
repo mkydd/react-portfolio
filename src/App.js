@@ -6,20 +6,13 @@ import Resume from './components/Resume'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import BurgerMenu from './components/BurgerMenu';
-import Images from './components/Images';
 import { useEffect, useState } from 'react';
 
 
 function App() {
-  const [initialRender, setInitialRender] = useState(true)
-
-  useEffect(() => {
-    setInitialRender(false)
-  }, [])
-
+  
   return (
     <div className="app">
-      {initialRender ? <Images /> : null}
       <BurgerMenu />
       <Routes>
         <Route path="/" element={<Home />}/>

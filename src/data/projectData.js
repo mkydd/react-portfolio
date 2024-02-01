@@ -1,4 +1,3 @@
-// if project is added add image to Image component to load it
 import reactCalculatorImg from '../imgs/projects/react-calculator.png'
 import spotifyPlaylistGeneratorImg from '../imgs/projects/spotify-playlist-generator.png'
 import wordGuessingGameImg from '../imgs/projects/word-guessing-game.png'
