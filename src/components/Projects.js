@@ -9,7 +9,7 @@ function Projects() {
       <ul className='project'>
         {projects.map(project => {
           return (
-            <div className="project-info">
+            <div className="project-info" key={`project-info-${project.name}`}>
               <li key={project.name}>
                 <div className="img-wrapper">
                   {project.img ? <img src={project.img} alt={project.name} className={project.imgClassName}/> : null}
