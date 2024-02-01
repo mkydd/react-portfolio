@@ -7,7 +7,7 @@ function Menu( {handleCloseClick} ) {
   return (
     <div className='menu'>
       <div className="button-wrapper">
-        <MenuButton handleCloseClick={handleCloseClick}/>
+        <MenuButton handleClick={handleCloseClick}/>
       </div>
       <div className="headshot">
         <img src={headshot} alt="headshot" srcset="" />
