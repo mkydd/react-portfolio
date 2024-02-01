@@ -30,24 +30,24 @@ body {
 .menu {
     height: 100%;
     border-right: 1px solid #cbced8;
-    width: 70%;
-    max-width: 25rem;
     background-color: #e4e4e4;
+    max-width: 907px;
     display: flex;
     flex-direction: column;
 }
 
 .menu-wrapper {
+    /* border: 5px solid black; */
     display: flex;
-    border: 5px solid black;
     box-sizing: border-box;
     flex-grow: 1;
 }
 
 .another-menu-wrapper {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     box-sizing: border-box;
     height: 100%;
     position: fixed;
@@ -57,7 +57,7 @@ body {
     width: 60%;
     max-width: 15rem;
     border-radius: 50%;
-    border: 8px solid #cbced8;
+    border: 6px solid #cbced8;
     margin-block: 1rem;
 }
 
