@@ -16,6 +16,10 @@ body {
     min-height: 100dvh;
 }
 
+.load-images {
+    display: none;
+}
+
 /* General Styling */
 .name {
     margin-top: 0;
