@@ -10,7 +10,7 @@ function Menu( {handleCloseClick} ) {
         <MenuButton handleClick={handleCloseClick}/>
       </div>
       <div className="headshot">
-        <img src={headshot} alt="headshot" srcset="" />
+        <img src={headshot} alt="headshot" />
       </div>
       <div className='navlink-box-wrapper'>
         <div className="navlink-box">
