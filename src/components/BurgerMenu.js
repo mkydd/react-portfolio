@@ -18,7 +18,7 @@ function BurgerMenu() {
       <div className="nav">
         
         {pressed ? 
-          <Menu handleClick={handleMenuCloseClick}/> 
+          <Menu handleCloseClick={handleMenuCloseClick}/> 
         : 
           <BurgerMenuButton handleClick={handleBurgerButtonClick}/>}
       </div>
