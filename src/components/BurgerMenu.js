@@ -16,7 +16,6 @@ function BurgerMenu() {
   return (
     <div className='burger-menu'>
       <div className="nav">
-        
         {pressed ? 
           <Menu handleCloseClick={handleMenuCloseClick}/> 
         : 
