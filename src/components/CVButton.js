@@ -3,7 +3,7 @@ import React from 'react';
 function PdfDownloadComponent() {
   
   return (
-    <div>
+    <div className='cv-download-button-wrapper'>
       <a href="/resume/kydd_resume.pdf" download="michael-kydd-resume">
         <button type='download' className='cv-download-button'>DOWNLOAD CV</button>
       </a>
