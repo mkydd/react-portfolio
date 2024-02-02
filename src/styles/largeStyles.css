@@ -1,12 +1,10 @@
 @media screen and (min-width: 1200px) {
-    * {
-        /* margin: 0; */
-    }
+    /* * {
+        box-sizing: border-box;
+    } */
 
     .app {
         display: flex;
-        flex-wrap: wrap;
-        min-height: 100dvh;
     }
 
     .button-wrapper {
@@ -15,12 +13,16 @@
 
     .another-menu-wrapper {
         position: static;
-        height: 100dvh;
-        width: auto;
+        max-width: 17rem;
+        border: 5px solid red;
     }
 
     .menu-wrapper {
-        height: inherit;
+        width: inherit;
+    }
+
+    .menu {
+        width: inherit;
     }
 
     .home {
@@ -31,7 +33,6 @@
         display: flex;
         flex-direction: column;
         max-height: 100dvh;
-        max-width: 1000px;
         overflow-y: scroll;
         flex-shrink: 1;
         margin-top: 0;
