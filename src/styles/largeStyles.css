@@ -1,4 +1,6 @@
-@media screen and (min-width: 1200px) {.app {
+@media screen and (min-width: 1200px) {
+    
+    .app {
         display: flex;
         padding: 0;
         margin: 0;
@@ -75,6 +77,9 @@
         display: flex;
         flex-wrap: wrap;
         gap: 2rem;
+        justify-content: space-between;
+        width: 100%;
+
     }
 
     .contact-page h1 {
@@ -87,10 +92,12 @@
 
     .contact-form {
         max-width: 50%;
+        font-size: larger;
     }
 
     .contact-info {
         flex-grow: 1;
+        font-size: larger;
     }
 
 
