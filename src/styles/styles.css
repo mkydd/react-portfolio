@@ -208,9 +208,21 @@ body {
 }
 
 /* Resume Page Styling */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .skills h1 {
     margin-bottom: 0.5rem;
+    flex: 100%;
 }
+
+.skill-category {
+    flex: 100%;
+}
+
 .resume-page {
     margin-top: 5rem;
     margin-inline: 1rem;
