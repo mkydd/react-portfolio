@@ -31,6 +31,17 @@
         margin: 0;
     }
 
+    .resume-page {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cv-download-button-wrapper {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+    }
+
     .projects-page {
         display: flex;
         flex-direction: column;
