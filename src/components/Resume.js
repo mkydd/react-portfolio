@@ -6,22 +6,22 @@ function Resume() {
     <div className='resume-page'>
       <div className='skills'>
         <h1>My Skills</h1>
-        <div>
+        <div className='skill-category'>
           <h3>Programming</h3> 
           <ul>{programming.map(elem => <li key={elem}>{elem}</li>)}</ul>
         </div>
         <br />
-        <div>
+        <div className='skill-category'>
           <h3>Web Database</h3> 
           <ul>{web_database.map(elem => <li key={elem}>{elem}</li>)}</ul>
         </div>
         <br />
-        <div>
+        <div className='skill-category'>
           <h3>Frameworks</h3> 
           <ul>{frameworks.map(elem => <li key={elem}>{elem}</li>)}</ul>
         </div>
         <br />
-        <div>
+        <div className='skill-category'>
           <h3>Tech</h3> 
           <ul>{tech.map(elem => <li key={elem}>{elem}</li>)}</ul>
       </div>
