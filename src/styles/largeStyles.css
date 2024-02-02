@@ -5,6 +5,13 @@
 
     .app {
         display: flex;
+        padding: 0;
+        margin: 0;
+        max-height: 100dvh;
+    }
+
+    body {
+        /* overflow: hidden; */
     }
 
     .button-wrapper {
@@ -14,15 +21,19 @@
     .another-menu-wrapper {
         position: static;
         max-width: 17rem;
-        border: 5px solid red;
+        min-height: 100dvh;
+        /* border: 5px solid red; */
     }
 
     .menu-wrapper {
         width: inherit;
+        flex-direction: column;
     }
 
     .menu {
         width: inherit;
+        min-height: inherit;
+        flex-grow: 1;
     }
 
     .home {
@@ -32,9 +43,8 @@
     .projects-page {
         display: flex;
         flex-direction: column;
-        max-height: 100dvh;
+        max-height: 100%;
         overflow-y: scroll;
-        flex-shrink: 1;
         margin-top: 0;
     }
 
