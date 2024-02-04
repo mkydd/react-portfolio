@@ -126,7 +126,7 @@
     }
 
     .about-me {
-        display: flex;
+        /* display: flex; */
         flex-grow: 1;
 
     }
