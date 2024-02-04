@@ -170,6 +170,7 @@ body {
 /* About Page Styling */
 .about-me-wrapper {
     margin-top: 5rem;
+    overflow: scroll;
 }
 
 .about-me-wrapper h1 {
@@ -237,6 +238,7 @@ body {
     margin-top: 5rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
+    overflow: scroll;
 }
 
 .resume-page ul {
@@ -341,6 +343,7 @@ body {
 /* Contact Page Styling */
 .contact-page {
     margin: 5rem 1rem 1rem 1rem;
+    overflow: scroll;
 }
 
 .contact-form {
