@@ -35,9 +35,16 @@
         justify-content: space-around;
     }
 
+    .resume-page-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .resume-page {
         display: flex;
         flex-wrap: wrap;
+        max-width: 1200px;
     }
 
     .cv-download-button-wrapper {
@@ -99,7 +106,11 @@
         flex-grow: 1;
         font-size: larger;
     }
+}
 
-
+@media screen and (min-width: 1500px) {
+    .resume-page {
+        max-width: 50%;
+    }
 
 }
