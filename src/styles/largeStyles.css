@@ -15,6 +15,7 @@
         position: static;
         max-width: 17rem;
         min-height: 100dvh;
+        overflow-x: hidden;
         /* border: 5px solid red; */
     }
 
