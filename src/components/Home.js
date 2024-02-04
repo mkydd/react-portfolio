@@ -10,9 +10,8 @@ function Home() {
           <h1 className='name'>Michael Kydd</h1>
         </div>
         <div className='about-me'>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Dolorum impedit sed unde excepturi vel explicabo quaerat quam 
-            quidem vero, rem commodi id amet ducimus optio?</p>
+          <p>I am a recent Computer Science graduate. I enjoy exploring diverse areas of technology. 
+            Currently I most enjoy working with Front-End Devlopment.</p>
         </div>
         <div>
           <a 
