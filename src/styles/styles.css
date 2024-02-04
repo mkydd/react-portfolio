@@ -167,8 +167,16 @@ body {
 }
 
 /* About Page Styling */
-.about-me {
+.about-me-wrapper {
     margin-top: 5rem;
+}
+
+.about-me-wrapper h1 {
+    margin-inline: 1rem;
+}
+
+.about-me {
+    margin-top: 2rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
 }
