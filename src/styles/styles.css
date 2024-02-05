@@ -50,7 +50,7 @@ body {
     /* border: 5px solid red; */
     box-sizing: border-box;
     height: 100%;
-    overflow-y: scroll;
+    overflow: auto;
     position: fixed;
 }
 
@@ -170,7 +170,7 @@ body {
 /* About Page Styling */
 .about-me-wrapper {
     margin-top: 5rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .about-me-wrapper h1 {
@@ -238,7 +238,7 @@ body {
     margin-top: 5rem;
     margin-inline: 1rem;
     margin-bottom: 1rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .resume-page ul {
@@ -343,7 +343,7 @@ body {
 /* Contact Page Styling */
 .contact-page {
     margin: 5rem 1rem 1rem 1rem;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .contact-form {
