@@ -13,7 +13,7 @@ import Menu from './components/Menu';
 
 function App() {
   const screenSize = useScreenSize();
-  console.log(`screen width = ${screenSize.width}`)
+  // console.log(`screen width = ${screenSize.width}`)
 
   return (
     <div className="app">
