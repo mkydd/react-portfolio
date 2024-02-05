@@ -13,7 +13,7 @@ function ContactInfo() {
             padding: '0.25rem',
             fontSize: '2rem'}} />
         <p className="contact-type">Phone</p>
-        <p className="contact-info">+1 289-244-0493</p>
+        <p className="contact-info">+1 289-684-2245</p>
       </div>
       <div className="contact-info-card">
         <EmailOutlinedIcon 
