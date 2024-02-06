@@ -293,6 +293,7 @@ body {
 /* Projects Page Styling */
 .projects-page {
     margin: 5rem 1rem 1rem 1rem;
+    overflow: auto;
 }
 
 .project {
