@@ -26,13 +26,16 @@ function Projects() {
                     )}
                 </ul>
               </li>
-              <a 
-                href={project.githubURL}
-                target="_blank" 
-                rel="noreferrer" 
-              >
-                <button className='project-link-button'>View On Github</button>
-              </a>
+              <div className="project-link-button-wrapper">
+                <a 
+                  href={project.githubURL}
+                  target="_blank" 
+                  rel="noreferrer" 
+                >
+                  <button className='project-link-button'>View On Github</button>
+                </a>
+              </div>
+              
             </div>
             
           )
