@@ -88,10 +88,10 @@ body {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    margin-block: 2rem;
+    margin-block: 1rem;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     min-height: 3rem;
     margin-inline: 0.5rem;
     display: flex;
