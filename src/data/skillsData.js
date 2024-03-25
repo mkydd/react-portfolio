@@ -1,5 +1,6 @@
 const programming = [
   'Python',
+  'C#',
   'C',
   'Java',
   'VBA', 
@@ -14,12 +15,15 @@ const web_database = [
 
 const frameworks = [
   'ReactJS',
+  '.NET',
+  'Express.js',
   'Docker'
 ]
 
 const tech = [
   'Git',
   'Linux',
+  'Node.js',
   'VSCode',
   'Eclipse',
   'Vim',
