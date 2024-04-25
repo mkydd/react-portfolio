@@ -14,8 +14,8 @@ function About() {
           <div className="information">
             <h2>I am <span className='name'>Michael Kydd</span></h2>
             <p className='description'>I am a recent Computer Science graduate. 
-            I enjoy exploring diverse areas of technology. Currently I most enjoy 
-            working on Front-End Development.</p>
+            I enjoy exploring diverse areas of technology. 
+            Currently I most enjoy working on Software Development.</p>
             <div className="about-me-info">
               <p><b>Full Name</b> : Michael Kydd</p>
               <p><b>Nationality</b> : Canadian</p>

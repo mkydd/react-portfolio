@@ -11,7 +11,7 @@ function Home() {
         </div>
         <div className='about-me'>
           <p>I am a recent Computer Science graduate. I enjoy exploring diverse areas of technology. 
-            Currently I most enjoy working on Front-End Development.</p>
+            Currently I most enjoy working on Software Development.</p>
         </div>
         <div>
           <a 
