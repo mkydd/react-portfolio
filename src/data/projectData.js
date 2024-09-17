@@ -2,8 +2,22 @@ import reactCalculatorImg from '../imgs/projects/react-calculator.png'
 import spotifyPlaylistGeneratorImg from '../imgs/projects/spotify-playlist-generator.png'
 import wordGuessingGameImg from '../imgs/projects/word-guessing-game.png'
 import finalGradeGeneratorImg from '../imgs/projects/final-grade-generator.png'
+import exerciseTrackerImg from '../imgs/projects/exercise-tracker.png'
 
 const projects = [ 
+  {
+    name: 'Exercise Tracker',
+    img: exerciseTrackerImg,
+    imgClassName: 'vertical-img',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
+    githubURL: 'https://github.com/mkydd/exercise-tracker',
+    tech: [
+      'React',
+      'Node.js',
+      'Express.js',
+      'MongoDB'
+    ]
+  },
   {
     name: 'Word Guessing Game',
     img: wordGuessingGameImg,
