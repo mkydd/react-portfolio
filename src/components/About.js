@@ -21,8 +21,6 @@ function About() {
               <p><b>Nationality</b> : Canadian</p>
               <p><b>Language(s)</b> : English</p>
               <p><b>Location</b>: Hamilton, ON, Canada</p>
-              
-              <p><b>Working Status</b>: Seeking Employment</p>
             </div>
             <CVButton />
           </div>
