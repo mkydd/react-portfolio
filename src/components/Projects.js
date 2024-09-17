@@ -34,6 +34,15 @@ function Projects() {
                 >
                   <button className='project-link-button'>View On Github</button>
                 </a>
+                { project.hostURL &&
+                  <a 
+                    href={project.hostURL}
+                    target="_blank" 
+                    rel="noreferrer" 
+                  >
+                    <button className='project-link-button'>View Live Site</button>
+                  </a>
+                }
               </div>
               
             </div>

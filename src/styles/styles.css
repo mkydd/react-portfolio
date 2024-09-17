@@ -320,6 +320,11 @@ body {
     justify-content: center;
 }
 
+.project .project-link-button-wrapper {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .project .project-link-button {
     color: #037fff;
     background-color: white;

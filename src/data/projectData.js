@@ -11,6 +11,7 @@ const projects = [
     imgClassName: 'vertical-img',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa nostrum maxime praesentium! Libero, doloribus deserunt. Praesentium voluptates consectetur aliquam?',
     githubURL: 'https://github.com/mkydd/exercise-tracker',
+    hostURL: 'https://mk-exercise-tracker.netlify.app',
     tech: [
       'React',
       'Node.js',
