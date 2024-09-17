@@ -4,7 +4,7 @@ function PdfDownloadComponent() {
   
   return (
     <div className='cv-download-button-wrapper'>
-      <a href="/resume/kydd_resume.pdf" download="michael-kydd-resume">
+      <a href="/resume/mkydd_resume.pdf" download="michael-kydd-resume">
         <button type='download' className='cv-download-button'>DOWNLOAD CV</button>
       </a>
     </div>
