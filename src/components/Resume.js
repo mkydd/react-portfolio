@@ -13,7 +13,7 @@ function Resume() {
           </div>
           <br />
           <div className='skill-category'>
-            <h3>Web Database</h3> 
+            <h3>Web / Database</h3> 
             <ul>{web_database.map(elem => <li key={elem}>{elem}</li>)}</ul>
           </div>
           <br />

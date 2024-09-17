@@ -1,7 +1,6 @@
 const programming = [
   'Python',
   'C',
-  'Java',
   'VBA', 
   'JavaScript'
 ]
@@ -9,7 +8,8 @@ const programming = [
 const web_database = [
   'HTML',
   'CSS',
-  'MySQL'
+  'MySQL',
+  'MongoDB'
 ]
 
 const frameworks = [
