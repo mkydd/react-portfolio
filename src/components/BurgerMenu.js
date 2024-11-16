@@ -1,29 +1,29 @@
-import React, { useState } from 'react'
-import Menu from './Menu'
-import BurgerMenuButton from './BurgerMenuButton';
+import React, { useState } from "react";
+import Menu from "./Menu";
+import BurgerMenuButton from "./BurgerMenuButton";
 
 function BurgerMenu() {
-  const [pressed, setPressed] = useState(false)
+  const [pressed, setPressed] = useState(false);
 
   function handleBurgerButtonClick() {
-    setPressed(!pressed)
+    setPressed(!pressed);
   }
 
   function handleMenuCloseClick() {
-    setPressed(!pressed)
+    setPressed(!pressed);
   }
 
   return (
-    <div className='burger-menu'>
+    <div className="burger-menu">
       <div className="nav">
-        {pressed ? 
-          <Menu handleCloseClick={handleMenuCloseClick}/> 
-        : 
-          <BurgerMenuButton handleClick={handleBurgerButtonClick}/>}
+        {pressed ? (
+          <Menu handleCloseClick={handleMenuCloseClick} />
+        ) : (
+          <BurgerMenuButton handleClick={handleBurgerButtonClick} />
+        )}
       </div>
-      
     </div>
-  )
+  );
 }
 
-export default BurgerMenu
+export default BurgerMenu;
