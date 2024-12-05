@@ -9,15 +9,11 @@ function BurgerMenu() {
     setPressed(!pressed);
   }
 
-  function handleMenuCloseClick() {
-    setPressed(!pressed);
-  }
-
   return (
     <div className="burger-menu">
       <div className="nav">
         {pressed ? (
-          <Menu handleCloseClick={handleMenuCloseClick} />
+          <Menu handleCloseClick={handleBurgerButtonClick} />
         ) : (
           <BurgerMenuButton handleClick={handleBurgerButtonClick} />
         )}
